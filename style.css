@@ -68,3 +68,13 @@ img{
     color: var(---light);
 }
 
+/* Top Container  */
+
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        'showcase showcase top-box-a'
+        'showcase showcase top-box-b';
+}
+
